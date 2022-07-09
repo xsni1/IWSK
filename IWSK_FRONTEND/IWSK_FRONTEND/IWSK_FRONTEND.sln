@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IWSK_FRONTEND", "IWSK_FRONTEND\IWSK_FRONTEND.csproj", "{5434E6D7-12FC-4DF5-AE92-183DF2137E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IWSK_RS232", "..\..\IWSK_RS232\IWSK_RS232.csproj", "{7F6212FA-E78B-4145-ACF8-1097DCA6A54F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49649C43-ABD7-465B-8AB2-75C18909D275}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5434E6D7-12FC-4DF5-AE92-183DF2137E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5434E6D7-12FC-4DF5-AE92-183DF2137E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5434E6D7-12FC-4DF5-AE92-183DF2137E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5434E6D7-12FC-4DF5-AE92-183DF2137E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6212FA-E78B-4145-ACF8-1097DCA6A54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6212FA-E78B-4145-ACF8-1097DCA6A54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6212FA-E78B-4145-ACF8-1097DCA6A54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6212FA-E78B-4145-ACF8-1097DCA6A54F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF84B16-8A89-4E29-80EF-6A730DF82DDB}
+	EndGlobalSection
+EndGlobal

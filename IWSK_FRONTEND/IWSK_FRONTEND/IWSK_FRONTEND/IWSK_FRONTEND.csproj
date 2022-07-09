@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\IWSK_RS232\IWSK_RS232.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WPFHexaEditor">
+      <HintPath>..\..\..\..\..\..\Desktop\WpfHexEditorControl-master\Sources\WPFHexaEditor\bin\Debug\net50-windows\WPFHexaEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
